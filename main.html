@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расчёт ИМТ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Вычисление ИМТ</h2>
+    <p>
+        Вес, кг:&nbsp; <input type="text" id = "weight" placeholder="Введите значение">
+    </p>
+    <p>
+        Рост, см:&nbsp; <input type="text" id = "height" placeholder="Введите значение">
+    </p> 
+    <p>
+        <div class="result"> Результат ИМТ:&nbsp; </div> <span id = "out" > </span> 
+    </p>
+    <button onclick="calculateIMT()"> Подсчитать ИМТ </button>
+    <main>
+        <p class="question_title">
+            Что такое ИМТ?
+        </p>
+        <div class = "indent">
+            ИМТ расшифровывается как индекс массы тела. Это числовое значение, используемое для оценки соотношения массы тела человека и его роста. ИМТ является простым методом для определения, находится ли масса тела человека в пределах нормы, недостаточной или избыточной. 
+            Индекс массы тела вычисляется по следующей формуле:  </div> <br>
+            <img class = "formula" src="https://avatars.dzeninfra.ru/get-zen_doc/1900370/pub_5ce3d6948bdbeb00b4654bea_5ce3d7bbbdd16700b30da247/orig" alt="ИМТ">
+        <br>
+            <div class="indent">
+            Обычно ИМТ используется для грубой оценки, и он не учитывает такие факторы, как распределение жира, мышечная масса, возраст и пол. В результате один и тот же ИМТ может означать разные степени здоровья у разных людей. Тем не менее, он является одним из инструментов для начальной оценки веса и связанных с ним рисков для здоровья.
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

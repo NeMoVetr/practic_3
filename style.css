@@ -1,0 +1,45 @@
+h2 {
+    text-align: center;
+}
+body { 
+    font-size: 30px;
+    background-color: #A9A9A9; 
+    color: whitesmoke;
+    margin-bottom: 100px;
+}
+span {
+    font-style: italic;
+}
+.result {
+    font-weight: bold;
+
+}
+button {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #0088cc;
+    border-color: #0088cc;
+    color: white;
+    
+}
+.indent {
+    text-indent: 1em;
+}
+main {
+    width: 1000px;
+}
+.question_title 
+{
+    text-align: center;
+    font-weight: bold;
+}
+.formula
+{
+    display: flex;
+    height: 20vh; 
+    justify-content: center;
+    align-items: center;
+}
+input{
+    font-size: 20px;
+}
