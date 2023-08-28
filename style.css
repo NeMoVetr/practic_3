@@ -1,53 +1,59 @@
-body
- {
-   color: white;
-   font-size: 30px;
-   background-color: grey;
-   height: 5vh;
-   display: flex;
-   flex-direction: column;
-   min-height: 100vh;
- }
- .content 
- {
-   margin-top: 20px;
-   flex: 1;
- }
- button{
-   margin-top: 40px;
-   border-radius: 10px;
-   padding: 5px 5px;
-   border: none;
-   background-color: black;
-   color: white;
-   margin-left: 50px;
-   cursor: pointer;
-   font-size: 20px;
- }
- input {
-   margin-left: 50px;
-   font-size: 20px;
- }
- h1
- {
+h2 {
     text-align: center;
- }
- div {
-   background-color: #BEBEBE ;
- }
- header
- {
-   background-color: black;
- }
- footer{
-   
-   margin-top: 20px;
-   background-color: black ;
-   padding: 20px;
-   position: sticky;
-   bottom: 0;
- }
- .result
- {
-   margin-left: 50px
- }
+}
+body { 
+    font-size: 30px;
+    background-color: #A9A9A9; 
+    color: whitesmoke;
+    margin-bottom: 100px;
+}
+span {
+    font-style: italic;
+}
+.result {
+    font-weight: bold;
+
+}
+button {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #0088cc;
+    border-color: #0088cc;
+    color: white;
+    
+}
+.indent {
+    text-indent: 1em;
+}
+main {
+    width: 1000px;
+}
+.question_title 
+{
+    text-align: center;
+    font-weight: bold;
+}
+.formula
+{
+    display: flex;
+    height: 20vh; 
+    justify-content: center;
+    align-items: center;
+}
+input{
+    font-size: 20px;
+}
+header
+{
+    padding-top: 0.002em;
+    height: 15vh;
+    background-color: black;
+}
+footer
+{
+    padding-top: 1em;
+    background-color: black;
+    text-align: end;
+    height: 6vh;
+    
+}
